@@ -20,13 +20,17 @@ export default {
 />`
     }
   },
-  props: {
-    message: { type: String, required: true }
+  data () {
+    return {
+      hidden: [],
+      letters: []
+    }
   },
-  data: () => ({
-    hidden: [],
-    letters: []
-  }),
+  computed: {
+    message() {
+      return this.$store.state.message
+    }
+  },
   created () {
     this.fillLetters()
     this.fillHidden()

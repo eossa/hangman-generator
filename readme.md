@@ -18,6 +18,6 @@ Also it is an example of use laravel-mix (with webpack, SASS and ES6), Vue.js, v
 - Before push run `npm run prod`.
 
 ## TODOs
-- Vuex for remove message in the url.
+- Success and error feedback
 - Better style and without bootstrap dependency.
 - Versioning
