@@ -1,0 +1,33 @@
+{
+  "name": "hangman-generator",
+  "version": "0.5.0",
+  "description": "A generator for hangman game.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+  },
+  "keywords": [
+    "hangman",
+    "game",
+    "html5",
+    "generator"
+  ],
+  "author": "Elkin Ossa",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "laravel-mix": "^3.0.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.2"
+  }
+}
