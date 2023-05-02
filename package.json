@@ -1,6 +1,6 @@
 {
   "name": "hangman-generator",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "A generator for hangman game.",
   "main": "dist/app.js",
   "scripts": {
@@ -20,17 +20,19 @@
   "author": "Elkin Fabian Ossa Zamudio",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap": "^4.3.1",
     "eslint": "^7.27.0",
     "eslint-plugin-vue": "^7.9.0",
     "laravel-mix": "^6.0.2",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.30.0",
     "sass-loader": "^8.0.2",
-    "vue": "^2.5.17",
     "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "vue": "^2.5.17",
     "vue-router": "^3.0.2",
-    "vue-template-compiler": "^2.6.12",
     "vuex": "^3.0.1"
   },
   "engines": {
